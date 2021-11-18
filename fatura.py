@@ -1,0 +1,6 @@
+n = str(input('Digite o nome do cliente: '))
+dia = str(input('Digite o dia de vencimento: '))
+mes = str(input('Digite o mes de vencimento: '))
+fat = str(input('Digite o valor da fatura: '))
+print(f'Olá, {n}')
+print(f'A sua fatura com vencimento em {dia} de {mes} no valor de R${fat} está fechada.')
